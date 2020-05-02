@@ -1,4 +1,10 @@
 -----------------
+-- Schema
+-----------------
+
+create schema if not exists test_work;
+set search_path to 'test_work';
+-----------------
 -- Organization
 -----------------
 create table if not exists organization
